@@ -1,7 +1,9 @@
 var cryptoSquare = function(phrase) {
-  // $(phrase).replaceAll("\\s", "");
-  phrase = phrase.replace(/\s/g, '');
+  phrase = phrase.toLowerCase();
+  // phrase = phrase.replace(/s\/g, '');
+  // phrase = phrase.replace(/[^\s\W]/gi, '');
   return phrase;
+
 };
 
 
