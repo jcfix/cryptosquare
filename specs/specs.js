@@ -1,5 +1,5 @@
-describe('leapYear', function(){
-    it("is false for a year that is not divisible by 4, 100, or 400", function(){
-      expect(leapYear(1993)).to.equal(false);
+describe('cryptoSquare', function(){
+    it("creates string with no white spaces", function(){
+      expect(cryptoSquare("We need more coffee!")).to.equal("Weneedmorecoffee!");
     });
 });
