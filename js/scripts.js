@@ -1,10 +1,19 @@
-var cryptoSquare = function(phrase) {
-  phrase = phrase.toLowerCase();
-  // phrase = phrase.replace(/s\/g, '');
-  // phrase = phrase.replace(/[^\s\W]/gi, '');
-  return phrase;
+var simplifyText = function(phrase) {
+  var lower = phrase.toLowerCase();
+  return lower;
 
 };
+
+var stripSpaces = function (lower){
+  var noSpaces = lower.replace(/[^a-zA-Z0-9]/g, '');
+  return noSpaces;
+}
+
+
+
+// var lowercasephrase = function(phrase) {
+//   lowerphrase = phrase.replace(/[^a-zA-Z0-9]/g, '');
+// };
 
 
 //remove all spaces//
