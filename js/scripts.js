@@ -7,7 +7,12 @@ var simplifyText = function(phrase) {
 var stripSpaces = function (lower){
   var noSpaces = lower.replace(/[^a-zA-Z0-9]/g, '');
   return noSpaces;
-}
+};
+
+var calcLength = function (noSpaces){
+  var calculateLength = noSpaces.length;
+  return calculateLength;
+};
 
 
 
