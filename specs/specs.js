@@ -22,3 +22,9 @@ describe('calcsqrt', function(calcLength) {
     expect(calcsqrt(16)).to.equal(4);
   });
 });
+
+describe('columns', function(squareRoot) {
+  it("create columns", function(){
+    expect(squareRoot(4)).to.equal(4);
+  });
+});

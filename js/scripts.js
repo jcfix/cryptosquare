@@ -19,6 +19,10 @@ var calcsqrt = function (calculateLength){
   return squareRoot;
 };
 
+var columns = function (squareRoot){
+  var columnSize = new Array();
+  return columnSize;
+};
 
 // var lowercasephrase = function(phrase) {
 //   lowerphrase = phrase.replace(/[^a-zA-Z0-9]/g, '');
