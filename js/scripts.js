@@ -14,6 +14,10 @@ var calcLength = function (noSpaces){
   return calculateLength;
 };
 
+var calcsqrt = function (calculateLength){
+  var squareRoot = Math.sqrt(calculateLength);
+  return squareRoot;
+};
 
 
 // var lowercasephrase = function(phrase) {

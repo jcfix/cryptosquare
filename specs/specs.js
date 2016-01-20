@@ -16,3 +16,9 @@ describe('calcLength', function(noSpaces) {
     expect(calcLength("weneedmorecoffee")).to.equal(16);
   });
 });
+
+describe('calcsqrt', function(calcLength) {
+  it("calculates square root of length", function(){
+    expect(calcsqrt(16)).to.equal(4);
+  });
+});
