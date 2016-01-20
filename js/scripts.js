@@ -15,7 +15,7 @@ var calcLength = function (noSpaces){
 };
 
 var calcsqrt = function (calculateLength){
-  var squareRoot = Math.sqrt(calculateLength);
+  var squareRoot = Math.ceil(Math.sqrt(calculateLength));
   return squareRoot;
 };
 
